@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.firebaseuploadexample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.Register"
+            android:label="Register" />
+        <activity
+            android:name=".login.Login"
+            android:label="Login" />
+        <activity
+            android:name=".Depan"
+            android:label="Daftar Hewan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Tambah Kurban">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Depan" />
+        </activity>
+        <activity
+            android:name=".kontak.Kontak"
+            android:label="Develover">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Depan" />
+            />
+        </activity>
+        <activity
+            android:name=".kontak.Tentang"
+            android:label="Info">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Depan" />
+        </activity>
+        <activity
+            android:name=".Keranjang"
+            android:label="KeranjangKu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Depan" />
+        </activity>
+        <activity
+            android:name=".Pesan"
+            android:label="Pesan" />
+        <activity
+            android:name=".login.Logout"
+            android:label="Logout">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Depan" />
+            />
+        </activity>
+        <activity android:name=".Daganganku" />
+        <activity android:name=".PemesananActivity" />
+        <activity android:name=".kurban.Kurban"></activity>
+    </application>
+
+</manifest>

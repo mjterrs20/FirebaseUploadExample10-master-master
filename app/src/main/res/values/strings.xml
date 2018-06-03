@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kurbanku</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="copyright">Copyright@2018</string>
+    <string name="tentang">Aplikasi ini Dibuat Untuk Para Peternak Agar Menjual Dagangnganya Secara Online </string>
+
+</resources>

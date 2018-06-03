@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pesan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pemesanan"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:textColor="@color/hitam"/>
+            <EditText
+                android:id="@+id/pesanJenis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Jenis Hewan"/>
+            <EditText
+                android:id="@+id/pesanHarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Harga"/>
+
+            <EditText
+                android:id="@+id/pesanNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Nama Pemesan"/>
+            <EditText
+                android:id="@+id/pesanJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Jumlah yang di Pesan"/>
+            <EditText
+                android:id="@+id/pesanNohp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="No HP"/>
+
+            <EditText
+                android:id="@+id/pesanDaerah"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:inputType="text"
+                android:hint="Alamat"/>
+
+            <Button
+                android:id="@+id/buttonPesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pesan"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
